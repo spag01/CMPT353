@@ -1,0 +1,8 @@
+Answer1: 1. 0m4.198s
+2. 0m4.590s
+3. 0m3.303s
+4. 0m2.978s
+
+Answer2: I would say the time spent on reading files is more than of calculating averages.
+
+Answer3: cache function is used in the get_grp function in my wikipedia-populars.py file. it is used with code command as grp.cache(). 

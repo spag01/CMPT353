@@ -1,0 +1,6 @@
+Question1: Which model did the best for the colour-prediction task? Can you give a theory about why? Do you have any theory about why RGB/LAB/HSV worked better for different models?
+Answer: According to me, KNN model has done the best job I have chosen 12 nearest neighbours which made the sample large enough to get more accuracy even it has more runtime. The theory behind it can be that it can specify training data as exact or original data which gives up to 100% accuracy. 
+They have the different colour intensity and they have different orientation which allows different methods to give better results based on the type .
+
+Question2: Have a look at the cities in your validation data where the weather model makes the wrong prediction. Do you feel like the model is making reasonable mistakes? Can you think of any weather features that we could potentially add to make better predictions?
+Answer: Yes, it is making reasonable mistakes as there is repeated data or I can say some cities have same weather conditions. We can add geographical factors and we can categorize weather condition into ranges such as short, medium etc. That features can be used to make better predictions.  

@@ -1,0 +1,5 @@
+Question1: In your reddit_relative.py, what intermediate results did you .cache()? Briefly describe what would have happened if you hadn't used .cache() anywhere. (No need to time it, unless you really want to.)
+Answer: If cache() was not used then spark could calculate them again and again whenever datasets get reused and it would make program inefficient. 
+
+Question2: How did marking DataFrames for broadcast affect the running time of the “best author” program above?
+Answer: I observed that the running time was less while running with broadcast as we are using small data which is reducing the amount of shuffling and hence broadcasting is limiting the shuffling over cluster.  
